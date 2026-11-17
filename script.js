@@ -31,12 +31,20 @@
 
 // console.log(eletkorDavid >= eletkorTalaber)
 
-const keresztNev = "Balázs";
-const foglalkozasSzeretne = "kezdő programozó";
-const foglalkozasMarad = "kezdő kábeldugdosó";
-const szuletesiEv = 2009;
-const ev = 2026;
+// const keresztNev = "Balázs";
+// const foglalkozasSzeretne = "kezdő programozó";
+// const foglalkozasMarad = "kezdő kábeldugdosó";
+// const szuletesiEv = 2009;
+// const ev = 2026;
 
-const balazs = keresztNev + " vagyok, " + (ev - szuletesiEv) + " éves " + foglalkozasSzeretne + " szeretnék lenni!";
-console.log(balazs)
+// const balazs = keresztNev + " vagyok, " + (ev - szuletesiEv) + " éves " + foglalkozasSzeretne + " szeretnék lenni!";
+// console.log(balazs)
+
+// const balazsUj = `${keresztNev} vagyok, ${ev - szuletesiEv} éves ${foglalkozasSzeretne} szeretnék lenni!`;
+// console.log(balazsUj);
+
+// console.log("Talabér vagyok \n\ haladó programozó");
+
+// console.log(`Talabér vagyok
+//     haladó programozó`);
 
