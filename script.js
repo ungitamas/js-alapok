@@ -48,3 +48,26 @@
 // console.log(`Talabér vagyok
 //     haladó programozó`);
 
+// const kor = 16;
+// const elegIdos = kor >= 18;
+
+// if (elegIdos) {
+//     console.log(`Teofil ihat bort 🍷`);
+// } else {
+//     const evekHatra = 18 - kor;
+//     console.log(`Teofil még nem ihat bort várnia kell ${evekHatra} évet. ❌`);
+// }
+
+
+const szuletesiEv = 2002;
+let szazad;
+
+if (szuletesiEv <= 2000) {
+    szazad = 20;
+    console.log(`${szazad} században születtél.`)
+} else {
+    szazad =21;
+    console.log(`${szazad} században születtél.`)
+}
+
+console.log(szazad)
