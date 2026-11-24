@@ -176,10 +176,30 @@
 // const interface = "hangkártya";
 // const private = 23;
 
-function logger() {
-    console.log("A nevem Talabér");
+// function logger() {
+//     console.log("A nevem Talabér");
+// }
+
+// logger();
+// logger();
+// logger();
+
+// function fruitProcessor(apples, oranges) {
+//     // console.log(apples, oranges);
+//     const juice = `Gyümölcslé ${apples} db almából ${oranges} db narancsból.`;
+//     return juice;
+// }
+
+// const appleJuice = fruitProcessor(5, 0);
+// console.log(appleJuice);
+
+// const appleOrangeJuice = fruitProcessor(2, 4);
+// console.log(appleOrangeJuice);
+
+
+function calcAge1(birthYear) {
+   return 2026 - birthYear;
 }
 
-logger();
-logger();
-logger();
+const age1 = calcAge1(1999);
+console.log(age1);
