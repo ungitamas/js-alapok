@@ -197,9 +197,94 @@
 // console.log(appleOrangeJuice);
 
 
-function calcAge1(birthYear) {
-   return 2026 - birthYear;
-}
+// console.log(calcAge3(2009));
 
-const age1 = calcAge1(1999);
-console.log(age1);
+// // Függvénydekraláció
+
+// function calcAge1(birthYear) {
+//    return 2026 - birthYear;
+// }
+
+// const age1 = calcAge1(1999);
+// console.log(age1);
+
+
+// // Függvénykifejezés
+// const calcAge2 = function (birthYear) {
+//     return 2026 - birthYear;
+// }
+
+// const age2 = calcAge2(1999);
+// console.log(age2);
+
+// // Nyílfüggvények
+
+// const calcAge3 = birthYear => 2026 - birthYear;
+
+// const age3 = calcAge3(1999);
+// console.log(age3);
+
+// const yearsUntilRetirement = birthYear => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return retirement;
+// }
+
+// console.log(yearsUntilRetirement(2009));
+
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = 2026 - birthYear;
+//     const retirement = 65 - age;
+//     return `${firstName} ${retirement} év múlva mehet nyugdíjba.`;
+// }
+
+// console.log(yearsUntilRetirement(2009, "Balázs"));
+// console.log(yearsUntilRetirement(2009, "Bálint"));
+// console.log(yearsUntilRetirement(1987, "Tanár úr"));
+
+// function multiplyByFour(fruit) {
+//     return fruit * 4; 
+// }
+
+
+
+// function fruitProcessor(apples, oranges) {
+//     const applePieces = multiplyByFour(apples);
+//     const orangePieces = multiplyByFour(oranges);
+//     const juice = `Gyümölcslé ${applePieces} almadarabból és ${orangePieces} narancsdarabból áll.`;
+//     return juice;
+// }
+
+// console.log(fruitProcessor(2,3));
+
+
+// const calcAge = function(birthYear) {
+//     return 2026 - birthYear;
+// }
+
+
+// const yearsUntilRetirement = (birthYear, firstName) => {
+//     const age = calcAge(birthYear);
+//     const retirement = 65 - age;
+
+//     if (retirement > 0) {
+//         console.log(`${firstName} ${retirement} év múlva mehet nyugdíjba.`);
+//         return retirement;
+//     } else {
+//         console.log(`${firstName} már elérte a nyugdíj korhatárt`);
+//         return -1;
+//     }
+// }
+
+
+
+// console.log(yearsUntilRetirement(2009, "Balázs"));
+// console.log(yearsUntilRetirement(2009, "Bálint"));
+// console.log(yearsUntilRetirement(1987, "Tanár úr"));
+// console.log(yearsUntilRetirement(1948, "Talabér"));
+
+const friends = ["Talabér", "Tekla", "Tóbiás", "Frédi", "Balázs", "Teofil"];
+console.log(friends);
+
+console.log(friends[2]);
